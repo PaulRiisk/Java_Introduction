@@ -7,7 +7,7 @@ public class Main {
         //Exercise 2
 
         /*
-         * a) Re-create trivia Game from before 5 questions, 5 answers
+         * a) Re-create exercise3.trivia Game from before 5 questions, 5 answers
          * arrays to save the question and answers
          * 2 methods to make the code more readable
          * hint:

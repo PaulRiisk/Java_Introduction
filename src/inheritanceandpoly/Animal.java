@@ -1,6 +1,6 @@
 package inheritanceandpoly;
 
-public class Animal {
+public abstract class Animal {
 
     public String picture;
     protected String name;
@@ -16,8 +16,6 @@ public class Animal {
         this.age++;
     }
 
-    public void makeSound() {
-        System.out.println(this.name + " just made a Sound!");
-    }
+    public abstract void makeSound();
 
 }

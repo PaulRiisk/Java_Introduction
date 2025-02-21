@@ -3,6 +3,7 @@ package inheritanceandpoly;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.BrokenBarrierException;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,6 +35,17 @@ public class Main {
 
         goodBoys.get(1).makeSound();
 
+        List<IPettable> pets = new ArrayList<>();
+        pets.add(bengie);
+        pets.add(whiskers);
+        pets.add(new Bird("joshi.png", "Joshi",10));
+
+        for(IPettable pet : pets) {
+            pet.pet();
+        }
+
+        // IFly flying = (IFly)whiskers;
+        // flying.fly();
 
     }
 }

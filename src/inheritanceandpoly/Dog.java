@@ -1,6 +1,6 @@
 package inheritanceandpoly;
 
-public class Dog extends Animal{
+public class Dog extends Animal implements IPettable{
     public static final int dogToHumanYearMultiplier = 7;
 
 
@@ -21,5 +21,10 @@ public class Dog extends Animal{
     @Override
     public void makeSound() {
         System.out.println(this.name + " just woofed!");
+    }
+
+    @Override
+    public void pet() {
+        System.out.println("Petted " + this.name + "!");
     }
 }
