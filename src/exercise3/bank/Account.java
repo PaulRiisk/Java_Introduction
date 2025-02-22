@@ -5,10 +5,10 @@ public class Account {
     private String accountID;
     private Person accountHolder;
 
-    public Account(int balance, String accountID, Person accountHolder) {
+    public Account(String id, int balance, Person person) {
+        this.accountID = id;
         this.balance = balance;
-        this.accountID = accountID;
-        this.accountHolder = accountHolder;
+        this.accountHolder = person;
     }
 
     protected void depositAmount(int amount) {
@@ -21,18 +21,14 @@ public class Account {
     }
 
     public int getBalance() {
-        return  balance;
+        return balance;
     }
 
-    public boolean isAccountID(String id) {
+    public boolean isAccountId(String id) {
         return this.accountID.equals(id);
     }
 
     public boolean isAccountHolder(Person person) {
         return accountHolder == person;
     }
-
-
-
-
 }
