@@ -35,4 +35,4 @@ Throughout this course, I revisited important Java programming concepts, includi
 ## Special Thanks
 
 A huge thank you to **@Modding by Kaupenjoe** for providing this amazing free Java Introduction Course! \
-It was a great learning experience. 🚀
+It was a great learning experience! 🚀
