@@ -2,7 +2,7 @@
 ## About This Project
 
 This repository serves as a structured summary of my learning journey through the Java Introduction Course by @Modding by Kaupenjoe. \
-The goal of this project is to refresh my Java skills while reinforcing key programming concepts through hands-on coding exercises. \
+The goal of this project is to refresh my Java skills while reinforcing key programming concepts through hands-on coding exercises.
 ## Project Structure 
 
 The repository **consists of 27 packages,** categorized by fundamental Java topics. Each package contains Java classes that demonstrate key concepts, such as:
